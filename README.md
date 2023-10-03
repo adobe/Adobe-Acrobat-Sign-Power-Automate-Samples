@@ -40,5 +40,12 @@ All of the above flows (except for the HTTP Call) can have trigger conditions ap
 - @or(contains(triggerBody()?['agreement/name'],'one'),contains(triggerBody()?['agreement/name'],'two')) - Flow will only run if one of two terms is in the name. You can also use @and. 
 - @equals(triggerBody()?['eventResourceParentType'],'MEGASIGN') - Flow will only run if the agreement is part of a bulk send. 
 
+### Contributing
+
+Contributions are welcomed! Read the [Contributing Guide](./.github/CONTRIBUTING.md) for more information.
+
+### Licensing
+
+This project is licensed under the Apache V2 License. See [LICENSE](LICENSE) for more information.
 
 
